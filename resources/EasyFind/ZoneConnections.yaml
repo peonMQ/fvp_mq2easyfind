@@ -62,6 +62,9 @@ FindLocations:
       location: [3395, -784.596, 195]
       targetZone: burningwood
     - type: ZoneConnection
+      location: [285, -6090, 139]
+      targetZone: firiona
+    - type: ZoneConnection
       location: [700, -1975, 23]
       targetZone: karnor
       identifier: 1
