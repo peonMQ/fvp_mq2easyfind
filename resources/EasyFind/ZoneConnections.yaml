@@ -10,6 +10,9 @@ FindLocations:
     - type: ZoneConnection
       location: [-5070, -788, 201]
       targetZone: dreadlands
+    - type: ZoneConnection
+      location: [5210, 1774, -163]
+      targetZone: skyfire
   butcher:
     - type: ZoneConnection
       location: [-1315, 3094, 0]
@@ -359,6 +362,9 @@ FindLocations:
       location: [-6100, 1424, 364]
       targetZone: frontiermtns
       identifier: 1
+    - type: ZoneConnection
+      location: [-986, 4240, 95]
+      targetZone: skyfire
     - type: Translocator
       name: '#Translocator Breya'
       keyword: travel to Timorous Deep
@@ -387,6 +393,13 @@ FindLocations:
     - type: ZoneConnection
       location: [281.88, 133.17, 5.06]
       targetZone: mistythicket
+  skyfire:
+    - type: ZoneConnection
+      location: [-1080, -4365, 36]
+      targetZone: overthere
+    - type: ZoneConnection
+      location: [-5750, 1778, -162]
+      targetZone: burningwood
   sro:
     - type: ZoneConnection
       location: [-3200, 1150, -26]
