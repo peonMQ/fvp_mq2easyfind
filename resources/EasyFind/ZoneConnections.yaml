@@ -65,6 +65,9 @@ FindLocations:
       location: [285, -6090, 139]
       targetZone: firiona
     - type: ZoneConnection
+      location: [-3470,	2320, 139]
+      targetZone: frontiermtns
+    - type: ZoneConnection
       location: [700, -1975, 23]
       targetZone: karnor
       identifier: 1
@@ -173,6 +176,9 @@ FindLocations:
       keyword: travel to Timorous Deep
       targetZone: timorous
       expansion: Kunark
+    - type: ZoneConnection
+      location: [6000, 320, -79]
+      targetZone: dreadlands
     - type: ZoneConnection
       location: [1245.12, 3538.5, 206.10]
       targetZone: lakeofillomen
