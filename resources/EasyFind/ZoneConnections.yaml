@@ -210,6 +210,9 @@ FindLocations:
       location: [-3240, -3770, -346]
       targetZone: dreadlands
     - type: ZoneConnection
+      location: [-4635,	-405,	113]
+      targetZone: lakeofillomen
+    - type: ZoneConnection
       location: [5982.80, 1441.43, 472.04]
       targetZone: overthere
       identifier: 1
