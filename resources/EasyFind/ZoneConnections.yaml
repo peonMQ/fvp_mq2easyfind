@@ -65,7 +65,7 @@ FindLocations:
       location: [285, -6090, 139]
       targetZone: firiona
     - type: ZoneConnection
-      location: [-3470,	2320, 139]
+      location: [2320, -3470,	139]
       targetZone: frontiermtns
     - type: ZoneConnection
       location: [700, -1975, 23]
@@ -177,7 +177,7 @@ FindLocations:
       targetZone: timorous
       expansion: Kunark
     - type: ZoneConnection
-      location: [6000, 320, -79]
+      location: [320, 6000, -79]
       targetZone: dreadlands
     - type: ZoneConnection
       location: [1245.12, 3538.5, 206.10]
@@ -207,10 +207,10 @@ FindLocations:
       location: [-2335, 4280, -454.46]
       targetZone: burningwood
     - type: ZoneConnection
-      location: [-3240, -3770, -346]
+      location: [-3770, -3240, -346]
       targetZone: dreadlands
     - type: ZoneConnection
-      location: [-4635,	-405,	113]
+      location: [-405,	-4635,	113]
       targetZone: lakeofillomen
     - type: ZoneConnection
       location: [5982.80, 1441.43, 472.04]
@@ -309,6 +309,9 @@ FindLocations:
     - type: ZoneConnection
       location: [4325, 1190, 47]
       targetZone: warslikswood
+    - type: ZoneConnection
+      location: [-410, 3360, 113]
+      targetZone: frontiermtns
   lakerathe:
     - type: ZoneConnection
       location: [2518, -2292, 2 ]
