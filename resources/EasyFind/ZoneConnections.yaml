@@ -45,8 +45,8 @@ FindLocations:
       targetZone: lakeofillomen
   cazicthule:
     - type: ZoneConnection
-      location: [50, -70, 0]
-      targetZone: ferrot
+      location: [40, -70, 0]
+      targetZone: feerrott
   commons:
     - type: ZoneConnection
       location: [-630.901, -1665.2, -57]
