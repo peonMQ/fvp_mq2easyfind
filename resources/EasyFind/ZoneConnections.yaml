@@ -20,6 +20,9 @@ FindLocations:
     - type: ZoneConnection
       location: [3145, -180, 1.88]
       targetZone: kaladima
+    - type: ZoneConnection
+      location: [-2930, -330, 0]
+      targetZone: cauldron
     - type: Translocator
       name: '#Translocator Fithop'
       keyword: Travel to Ocean of Tears
@@ -43,6 +46,10 @@ FindLocations:
     - type: ZoneConnection
       location: [-987, 596, 0]
       targetZone: lakeofillomen
+  cauldron:
+    - type: ZoneConnection
+      location: [2870, 260, 474]
+      targetZone: butcher
   cazicthule:
     - type: ZoneConnection
       location: [40, -70, 0]
