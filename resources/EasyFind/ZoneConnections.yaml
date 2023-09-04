@@ -23,7 +23,7 @@ FindLocations:
     - type: Translocator
       name: '#Translocator Fithop'
       keyword: Travel to Ocean of Tears
-      targetZone: oceanoftears
+      targetZone: oot
     - type: Translocator
       name: '#Translocator Gethia'
       keyword: Travel to Timorous Deep
@@ -198,10 +198,43 @@ FindLocations:
       location: [4950, 2696.38, 2.06]
       targetZone: swampofnohope
       identifier: 4
+  freporte:
+    - type: ZoneConnection
+      location: [120, -64,	-24]
+      targetZone: freportw
+    - type: ZoneConnection
+      location: [450,	-370, -24]
+      targetZone: freportw
+    - type: ZoneConnection
+      location: [-1310, -500, 12]
+      targetZone: nro
+    - type: Translocator
+      name: '#Translocator Setikan'
+      keyword: travel to Ocean of Tears
+      targetZone: oot
   freportw:
     - type: ZoneConnection
       location: [805.31, -291.157, -28]
       targetZone: ecommons
+    - type: ZoneConnection
+      location: [805.31, -291.157, -28]
+      targetZone: freporte
+    - type: ZoneConnection
+      location: [-84, -915, -24]
+      targetZone: freporte
+    - type: ZoneConnection
+      location: [300, -700, -24]
+      targetZone: freportn
+    - type: ZoneConnection
+      location: [250, -125, -10]
+      targetZone: freportn
+  freportn:
+    - type: ZoneConnection
+      location: [-400, -83, -24]
+      targetZone: freportw
+    - type: ZoneConnection
+      location: [-450, 491, -10]
+      targetZone: freportw
   frontiermtns:
     - type: ZoneConnection
       location: [-2335, 4280, -454.46]
@@ -367,14 +400,17 @@ FindLocations:
     - type: ZoneConnection
       location: [1936.03, 1399.61, 0]
       targetZone: ecommons
-  oceanoftears:
+    - type: ZoneConnection
+      location: [4180, 538, 0]
+      targetZone: freporte
+  oot:
     - type: Translocator
       name: '#Translocator Narrik'
       destinations:
         - keyword: travel to Butcherblock
           targetZone: butcher
         - keyword: Freeport
-          targetZone: freeporteast
+          targetZone: freporte
   overthere:
     - type: ZoneConnection
       location: [-6100, 1424, 364]
