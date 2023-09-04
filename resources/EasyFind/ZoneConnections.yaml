@@ -214,7 +214,7 @@ FindLocations:
       targetZone: oot
   freportw:
     - type: ZoneConnection
-      location: [805.31, -291.157, -28]
+      location: [0, 805.31, -28]
       targetZone: ecommons
     - type: ZoneConnection
       location: [805.31, -291.157, -28]
