@@ -378,7 +378,7 @@ FindLocations:
       targetZone: lavastorm
   nektulos:
     - type: ZoneConnection
-      location: [-2705.79, 660.05, -21]
+      location: [-2705.79, -660.05, -21]
       targetZone: ecommons
     - type: ZoneConnection
       location: [3120.41, 298.587, -19]
