@@ -377,8 +377,15 @@ FindLocations:
       location: [2185, -1202, 0]
       targetZone: gfaydark
     - type: ZoneConnection
+      location: [-1100, 3359, -3]
+      targetZone: mistmoore
+    - type: ZoneConnection
       location: [930, -2190, -5]
       targetZone: steamfont
+  mistmoore:
+    - type: ZoneConnection
+      location: [-358, 118, -178.8]
+      targetZone: lfaydark
   najena:
     - type: ZoneConnection
       location: [-15, 885, 0]
