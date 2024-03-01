@@ -64,6 +64,10 @@ FindLocations:
     - type: ZoneConnection
       location: [68.2795, 2259.08, -56]
       targetZone: safespot
+  crushbone:
+    - type: ZoneConnection
+      location: [-680, 163, 3.13]
+      targetZone: gfaydark
   dreadlands:
     - type: ZoneConnection
       location: [3395, -784.596, 195]
@@ -155,6 +159,16 @@ FindLocations:
     - type: ZoneConnection
       location: [-93, -470, 0]
       targetZone: felwithebank
+    - type: ZoneConnection
+      location: [375, -720, -10]
+      targetZone: felwitheb
+    - type: ZoneConnection
+      location: [40, 230, 4]
+      targetZone: gfaydark
+  felwitheb:
+    - type: ZoneConnection
+      location: [220, -834, -10]
+      targetZone: felwithea
   fieldofbone:
     - type: ZoneConnection
       location: [-2750, 3530.13, 4]
@@ -261,8 +275,11 @@ FindLocations:
       location: [-1645, 2690, 0]
       targetZone: butcher
     - type: ZoneConnection
-      location: [-1930.94, -2642.3, 20]
-      targetZone: felwithe
+      location: [2650, -55, 19]
+      targetZone: crushbone
+    - type: ZoneConnection
+      location: [-1934, -2650, 20]
+      targetZone: felwithea
     - type: ZoneConnection
       location: [-2632, -1111, 0]
       targetZone: lfaydark
