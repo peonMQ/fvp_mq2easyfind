@@ -8,6 +8,9 @@ FindLocations:
       targetZone: everfrost
   burningwood:
     - type: ZoneConnection
+      location: [7090, -4140, -231]
+      targetZone: chardok
+    - type: ZoneConnection
       location: [-5070, -788, 201]
       targetZone: dreadlands
     - type: ZoneConnection
