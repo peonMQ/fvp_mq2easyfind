@@ -59,7 +59,7 @@ FindLocations:
       location: [-630.901, -1665.2, -57]
       targetZone: ecommons
     - type: ZoneConnection
-      location: [885.98, 4244.15, -52]
+      location: [880, 4231, -52]
       targetZone: kithicor
     - type: ZoneConnection
       location: [68.2795, 2259.08, -56]
@@ -307,6 +307,10 @@ FindLocations:
     - type: ZoneConnection
       location: [-355, 100, -7.84175]
       targetZone: qeynos2
+  highkeep:
+    - type: ZoneConnection
+      location: [-92, 110, 4]
+      targetZone: highpasshold
   highpasshold:
     - type: ZoneConnection
       location: [-90, -130, 0]
@@ -351,7 +355,7 @@ FindLocations:
       targetZone: commons
     - type: ZoneConnection
       location: [564.27, 4891.06, 690]
-      targetZone: highpass
+      targetZone: highpasshold
     - type: ZoneConnection
       location: [2025.53, 3824.49, 462]
       targetZone: rivervale
