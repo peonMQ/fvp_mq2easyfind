@@ -18,7 +18,7 @@ FindLocations:
       targetZone: skyfire
   butcher:
     - type: ZoneConnection
-      location: [-1315, 3094, 0]
+      location: [-1315, -3094, 0]
       targetZone: gfaydark
     - type: ZoneConnection
       location: [3145, -180, 1.88]
