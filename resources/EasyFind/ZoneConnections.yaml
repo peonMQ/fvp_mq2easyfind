@@ -18,7 +18,7 @@ FindLocations:
       targetZone: skyfire
   butcher:
     - type: ZoneConnection
-      location: [-1315, -3094, 0]
+      location: [-1315, 3094, 0]
       targetZone: gfaydark
     - type: ZoneConnection
       location: [3145, -180, 1.88]
@@ -453,10 +453,12 @@ FindLocations:
     - type: ZoneConnection
       location: [-6100, 1424, 364]
       targetZone: frontiermtns
-      identifier: 1
     - type: ZoneConnection
       location: [-986, 4240, 95]
       targetZone: skyfire
+    - type: ZoneConnection
+      location: [-200, -4420, 235]
+      targetZone: warslikswood
     - type: Translocator
       name: '#Translocator Breya'
       keyword: travel to Timorous Deep
@@ -571,4 +573,6 @@ FindLocations:
     - type: ZoneConnection
       location: [1640, -3970, 20]
       targetZone: fieldofbone
-      identifier: 2
+    - type: ZoneConnection
+      location: [-241, 4090, 245]
+      targetZone: overthere
