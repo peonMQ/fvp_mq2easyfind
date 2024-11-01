@@ -374,6 +374,9 @@ FindLocations:
       location: [6330, -6810, 35]
       targetZone: cabwest
     - type: ZoneConnection
+      location: [1340, -4440, 220]
+      targetZone: firiona
+    - type: ZoneConnection
       location: [4325, 1190, 47]
       targetZone: warslikswood
     - type: ZoneConnection
