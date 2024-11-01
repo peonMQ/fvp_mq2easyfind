@@ -14,6 +14,9 @@ FindLocations:
       location: [-5070, -788, 201]
       targetZone: dreadlands
     - type: ZoneConnection
+      location: [ -2790, -4620, -15]
+      targetZone: frontiermtns
+    - type: ZoneConnection
       location: [5400, 1774, -163]
       targetZone: skyfire
   butcher:
