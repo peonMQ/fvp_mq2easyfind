@@ -469,6 +469,10 @@ FindLocations:
       name: '#Translocator Breya'
       keyword: travel to Timorous Deep
       targetZone: timorous
+  paineel:
+    - type: ZoneConnection
+      location: [620, -946, -95]
+      targetZone: hole
   rathemtn:
     - type: ZoneConnection
       location: [410, 3110, 0]
