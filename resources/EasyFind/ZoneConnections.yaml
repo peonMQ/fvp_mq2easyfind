@@ -565,6 +565,10 @@ FindLocations:
           targetZone: overthere
   trakanon:
     - type: ZoneConnection
+      location: [4000, 1510, -335]
+      switch: 12
+      targetZone: emeraldjungle
+    - type: ZoneConnection
       location: [1500, 4448, -275]
       targetZone: swampofnohope
       identifier: 1
