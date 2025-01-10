@@ -161,6 +161,9 @@ FindLocations:
     - type: ZoneConnection
       location: [-1448.78, 2682.48, -2]
       targetZone: spectrecaves
+    - type: ZoneConnection
+      location: [-2390, 2610, 23]
+      targetZone: fearplane
   felwithea:
     - type: ZoneConnection
       location: [-93, -470, 0]
