@@ -60,6 +60,10 @@ FindLocations:
     - type: ZoneConnection
       location: [40, -70, 0]
       targetZone: feerrott
+  citymist:
+    - type: ZoneConnection
+      location: [ -25, -930, 4]
+      targetZone: emeraldjungle
   commons:
     - type: ZoneConnection
       location: [-630.901, -1665.2, -57]
