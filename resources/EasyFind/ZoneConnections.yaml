@@ -121,7 +121,7 @@ FindLocations:
       targetZone: ectunnel
   emeraldjungle:
     - type: ZoneConnection
-      location: [-1900, 5360, 1]
+      location: [-1900, 5365, 1]
       targetZone: fieldofbone
     - type: ZoneConnection
       location: [-3445, 1550, -344]
