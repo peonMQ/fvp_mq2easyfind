@@ -298,6 +298,14 @@ FindLocations:
     - type: ZoneConnection
       location: [55, 65, -7]
       targetZone: qeytoqrg
+    - type: ZoneConnection
+      location: [-3140, -16000, -4]
+      targetZone: northkarana
+      identifier: 1
+    - type: ZoneConnection
+      location: [0, -16000, -4]
+      targetZone: northkarana
+      identifier: 2
   qeynos2:
     - type: ZoneConnection
       location: [1420, 100, 0]
@@ -312,6 +320,13 @@ FindLocations:
     - type: ZoneConnection
       location: [-355, 100, -7.84175]
       targetZone: qeynos2
+    - type: ZoneConnection
+      location: [ 5210, 84, -3]
+      targetZone: qrg
+  qrg:
+    - type: ZoneConnection
+      location: [-630, 114.00, 3]
+      targetZone: qeytoqrg
   highkeep:
     - type: ZoneConnection
       location: [-92, 110, 4]
@@ -436,6 +451,11 @@ FindLocations:
     - type: ZoneConnection
       location: [-3140, 3280, -4]
       targetZone: qey2hh1
+      identifier: 1
+    - type: ZoneConnection
+      location: [0, 3280, -4]
+      targetZone: qey2hh1
+      identifier: 2
     - type: ZoneConnection
       location: [-4545.16, 1209.26, -34]
       targetZone: southkarana
