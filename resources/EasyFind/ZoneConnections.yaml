@@ -340,6 +340,9 @@ FindLocations:
       targetZone: kithicor
   innothule:
     - type: ZoneConnection
+      location: [-1130, 1905, -7]
+      targetZone: feerrott
+    - type: ZoneConnection
       location: [140, -835, -11]
       targetZone: uguk
   kaladima:
