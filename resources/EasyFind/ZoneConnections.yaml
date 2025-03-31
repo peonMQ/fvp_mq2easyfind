@@ -508,15 +508,15 @@ FindLocations:
       location: [-375.29, -282.035, 0]
       targetZone: kithicor
     - type: ZoneConnection
-      location: [100, -86.14, 4.06]
-      targetZone: mistythicket
+      location: [-86.14, 100, 4.06]
+      targetZone: misty
   runnyeye:
     - type: ZoneConnection
       location: [-116.92, 5, 4.06]
       targetZone: beholder
     - type: ZoneConnection
       location: [281.88, 133.17, 5.06]
-      targetZone: mistythicket
+      targetZone: misty
   skyfire:
     - type: ZoneConnection
       location: [-1080, -4365, 36]
