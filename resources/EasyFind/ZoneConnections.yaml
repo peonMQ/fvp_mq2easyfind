@@ -430,6 +430,10 @@ FindLocations:
     - type: ZoneConnection
       location: [-358, 118, -178.8]
       targetZone: lfaydark
+  misty:
+    - type: ZoneConnection
+      location: [410.00, -2600, -3.25]
+      targetZone: rivervale
   najena:
     - type: ZoneConnection
       location: [-15, 885, 0]
@@ -499,15 +503,12 @@ FindLocations:
     - type: ZoneConnection
       location: [3420, 3050, -4]
       targetZone: lakerathe
-    - type: ZoneConnection
-      location: [4155.53, 894.27, 0]
-      targetZone: dragonscalecloak
   rivervale:
     - type: ZoneConnection
       location: [-375.29, -282.035, 0]
       targetZone: kithicor
     - type: ZoneConnection
-      location: [-86.14, 100, 4.06]
+      location: [100, -86.14, 4.06]
       targetZone: mistythicket
   runnyeye:
     - type: ZoneConnection
