@@ -27,7 +27,7 @@ FindLocations:
       location: [3145, -180, 1.88]
       targetZone: kaladima
     - type: ZoneConnection
-      location: [-2930, -330, 0]
+      location: [-2945, -330, 0]
       targetZone: cauldron
     - type: Translocator
       name: '#Translocator Fithop'
@@ -56,6 +56,9 @@ FindLocations:
     - type: ZoneConnection
       location: [2870, 260, 474]
       targetZone: butcher
+    - type: ZoneConnection
+      location: [-2045, -620, 94]
+      targetZone: unrest
   cazicthule:
     - type: ZoneConnection
       location: [40, -70, 0]
@@ -621,6 +624,10 @@ FindLocations:
       location: [-1592.17, -4768.20, -472.15]
       switch: 12
       targetZone: sebilis
+  unrest:
+    - type: ZoneConnection
+      location: [100, 330, 4]
+      targetZone: cauldron
   warslikswood:
     - type: ZoneConnection
       location: [-3660, 1150, 55]
