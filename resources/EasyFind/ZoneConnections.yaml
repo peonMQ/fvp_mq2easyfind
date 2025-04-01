@@ -1,4 +1,8 @@
 FindLocations:
+  akanon:
+    - type: ZoneConnection
+      location: [65, -77, 4]
+      targetZone: steamfont
   blackburrow:
     - type: ZoneConnection
       location: [-162.54, 10, 0]
@@ -560,6 +564,9 @@ FindLocations:
       location: [2900, 900, -34]
       targetZone: northkarana
   steamfont:
+    - type: ZoneConnection
+      location: [-2080, 530, -106]
+      targetZone: akanon
     - type: ZoneConnection
       location: [593, 2216, -113]
       targetZone: lfaydark
