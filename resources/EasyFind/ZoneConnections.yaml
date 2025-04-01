@@ -420,6 +420,9 @@ FindLocations:
       location: [890.24, 484.757, 51]
       targetZone: soldungb
     - type: ZoneConnection
+      location: [1360, 330, 150]
+      targetZone: soltemple
+    - type: ZoneConnection
       location: [936.194, 526.853, 52]
       targetZone: lsaoc
   lfaydark:
@@ -537,6 +540,10 @@ FindLocations:
   soldungb:
     - type: ZoneConnection
       location: [-405, -263, -107]
+      targetZone: lavastorm
+  soltemple:
+    - type: ZoneConnection
+      location: [230, 55, 3]
       targetZone: lavastorm
   sro:
     - type: ZoneConnection
