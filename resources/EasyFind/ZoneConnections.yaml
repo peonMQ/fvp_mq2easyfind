@@ -414,6 +414,9 @@ FindLocations:
       location: [-2130, -185, -19]
       targetZone: nektulos
     - type: ZoneConnection
+      location: [775, 227, 131]
+      targetZone: soldunga
+    - type: ZoneConnection
       location: [890.24, 484.757, 51]
       targetZone: soldungb
     - type: ZoneConnection
@@ -527,6 +530,14 @@ FindLocations:
     - type: ZoneConnection
       location: [-5750, 1778, -162]
       targetZone: burningwood
+  soldunga:
+    - type: ZoneConnection
+      location: [-435, -525, 74]
+      targetZone: lavastorm
+  soldungb:
+    - type: ZoneConnection
+      location: [-405, -263, -107]
+      targetZone: lavastorm
   sro:
     - type: ZoneConnection
       location: [-3200, 1150, -26]
