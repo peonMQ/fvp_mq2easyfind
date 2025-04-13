@@ -462,8 +462,26 @@ FindLocations:
       location: [3120.41, 298.587, -19]
       targetZone: lavastorm
     - type: ZoneConnection
-      location: [432.898, -768.06, 29]
-      targetZone: nekspires
+      location: [2245, -1104, 3]
+      targetZone: neriaka
+  neriaka:
+    - type: ZoneConnection
+      location: [60, 155, 31]
+      targetZone: nektulos
+    - type: ZoneConnection
+      location: [80, -400, -10]
+      targetZone: neriakb
+  neriakb:
+    - type: ZoneConnection
+      location: [80, -360, -10]
+      targetZone: neriaka
+    - type: ZoneConnection
+      location: [220, -855, -38]
+      targetZone: neriakc
+  neriakc:
+    - type: ZoneConnection
+      location: [200, -851, -38]
+      targetZone: neriakb
   northkarana:
     - type: ZoneConnection
       location: [14, -3120, -37]
