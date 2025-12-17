@@ -1,4 +1,8 @@
 FindLocations:
+  akanon:
+    - type: ZoneConnection
+      location: [65, -77, 4]
+      targetZone: steamfont
   blackburrow:
     - type: ZoneConnection
       location: [-162.54, 10, 0]
@@ -27,7 +31,7 @@ FindLocations:
       location: [3145, -180, 1.88]
       targetZone: kaladima
     - type: ZoneConnection
-      location: [-2930, -330, 0]
+      location: [-2945, -330, 0]
       targetZone: cauldron
     - type: Translocator
       name: '#Translocator Fithop'
@@ -56,6 +60,9 @@ FindLocations:
     - type: ZoneConnection
       location: [2870, 260, 474]
       targetZone: butcher
+    - type: ZoneConnection
+      location: [-2045, -620, 94]
+      targetZone: unrest
   cazicthule:
     - type: ZoneConnection
       location: [40, -70, 0]
@@ -181,6 +188,9 @@ FindLocations:
     - type: ZoneConnection
       location: [-2100, -1275, 15]
       targetZone: emeraldjungle
+    - type: ZoneConnection
+      location: [-1892, -150, -125]
+      targetZone: kaesora
     - type: ZoneConnection
       location: [455, 950, 61]
       targetZone: kurns
@@ -340,6 +350,9 @@ FindLocations:
       targetZone: kithicor
   innothule:
     - type: ZoneConnection
+      location: [-1130, 1905, -7]
+      targetZone: feerrott
+    - type: ZoneConnection
       location: [140, -835, -11]
       targetZone: uguk
   kaladima:
@@ -411,8 +424,14 @@ FindLocations:
       location: [-2130, -185, -19]
       targetZone: nektulos
     - type: ZoneConnection
+      location: [775, 227, 131]
+      targetZone: soldunga
+    - type: ZoneConnection
       location: [890.24, 484.757, 51]
       targetZone: soldungb
+    - type: ZoneConnection
+      location: [1360, 330, 150]
+      targetZone: soltemple
     - type: ZoneConnection
       location: [936.194, 526.853, 52]
       targetZone: lsaoc
@@ -430,6 +449,10 @@ FindLocations:
     - type: ZoneConnection
       location: [-358, 118, -178.8]
       targetZone: lfaydark
+  misty:
+    - type: ZoneConnection
+      location: [410.00, -2600, -3.25]
+      targetZone: rivervale
   najena:
     - type: ZoneConnection
       location: [-15, 885, 0]
@@ -442,8 +465,26 @@ FindLocations:
       location: [3120.41, 298.587, -19]
       targetZone: lavastorm
     - type: ZoneConnection
-      location: [432.898, -768.06, 29]
-      targetZone: nekspires
+      location: [2245, -1104, 3]
+      targetZone: neriaka
+  neriaka:
+    - type: ZoneConnection
+      location: [60, 155, 31]
+      targetZone: nektulos
+    - type: ZoneConnection
+      location: [80, -400, -10]
+      targetZone: neriakb
+  neriakb:
+    - type: ZoneConnection
+      location: [80, -360, -10]
+      targetZone: neriaka
+    - type: ZoneConnection
+      location: [220, -855, -38]
+      targetZone: neriakc
+  neriakc:
+    - type: ZoneConnection
+      location: [200, -851, -38]
+      targetZone: neriakb
   northkarana:
     - type: ZoneConnection
       location: [14, -3120, -37]
@@ -499,23 +540,20 @@ FindLocations:
     - type: ZoneConnection
       location: [3420, 3050, -4]
       targetZone: lakerathe
-    - type: ZoneConnection
-      location: [4155.53, 894.27, 0]
-      targetZone: dragonscalecloak
   rivervale:
     - type: ZoneConnection
       location: [-375.29, -282.035, 0]
       targetZone: kithicor
     - type: ZoneConnection
       location: [-86.14, 100, 4.06]
-      targetZone: mistythicket
+      targetZone: misty
   runnyeye:
     - type: ZoneConnection
       location: [-116.92, 5, 4.06]
       targetZone: beholder
     - type: ZoneConnection
       location: [281.88, 133.17, 5.06]
-      targetZone: mistythicket
+      targetZone: misty
   skyfire:
     - type: ZoneConnection
       location: [-1080, -4365, 36]
@@ -523,20 +561,35 @@ FindLocations:
     - type: ZoneConnection
       location: [-5750, 1778, -162]
       targetZone: burningwood
+  soldunga:
+    - type: ZoneConnection
+      location: [-435, -525, 74]
+      targetZone: lavastorm
+  soldungb:
+    - type: ZoneConnection
+      location: [-405, -263, -107]
+      targetZone: lavastorm
+  soltemple:
+    - type: ZoneConnection
+      location: [230, 55, 3]
+      targetZone: lavastorm
   sro:
     - type: ZoneConnection
       location: [-3200, 1150, -26]
       targetZone: innothule
   southkarana:
     - type: ZoneConnection
-      location: [-8560, 1162.51, 0]
+      location: [-8580, 1162.51, 0]
       targetZone: lakerathe
     - type: ZoneConnection
       location: [2900, 900, -34]
       targetZone: northkarana
   steamfont:
     - type: ZoneConnection
-      location: [593, 2216, -113]
+      location: [-2080, 530, -106]
+      targetZone: akanon
+    - type: ZoneConnection
+      location: [593, 2230, -113]
       targetZone: lfaydark
   swampofnohope:
     - type: ZoneConnection
@@ -599,6 +652,10 @@ FindLocations:
       location: [-1592.17, -4768.20, -472.15]
       switch: 12
       targetZone: sebilis
+  unrest:
+    - type: ZoneConnection
+      location: [100, 330, 4]
+      targetZone: cauldron
   warslikswood:
     - type: ZoneConnection
       location: [-3660, 1150, 55]
