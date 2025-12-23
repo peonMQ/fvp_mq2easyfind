@@ -141,6 +141,20 @@ FindLocations:
       location: [327.05, -1843.20, -334.97]
       identifier: 2
       targetZone: citymist
+  erudnext:
+    - type: ZoneConnection
+      location: [-1570, -175, -45]
+      targetZone: tox
+      identifier: 1
+    - type: ZoneConnection
+      location: [-645, -185, 80]
+      targetZone: erudnint
+      identifier: 1
+  erudnint:
+    - type: ZoneConnection
+      location: [715, 800, 6]
+      targetZone: erudnext
+      identifier: 1
   everfrost:
     - type: ZoneConnection
       location: [-3080, -530.411, -113]
@@ -635,6 +649,11 @@ FindLocations:
           targetZone: southro
         - keyword: travel to Overthere
           targetZone: overthere
+  tox:
+    - type: ZoneConnection
+      location: [2570, 295, -45]
+      targetZone: erudnext
+      identifier: 1
   trakanon:
     - type: ZoneConnection
       location: [4000, 1510, -335]
